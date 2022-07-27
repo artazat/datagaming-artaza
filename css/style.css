@@ -56,7 +56,7 @@ body {
     list-style: none;
 }
 
-.encabezado nav ul li a {
+.encabezado nav ul li a{
     text-decoration: none;
     text-decoration: none;
     font-family: 'Source Code Pro', monospace;
@@ -69,8 +69,24 @@ body {
     margin-right: 30px;
 }
 
+.lista{
+    transition: 1s;
+}
+
+.lista:hover{
+    transform: scale(0.9);
+}
+
 .listaContacto{
     margin-right: 20px;
+}
+
+.listaContacto{
+    transition: 1s;
+}
+
+.listaContacto:hover{
+    transform: scale(0.9);
 }
 
 /* ---REAL MAIN--- */
@@ -137,27 +153,41 @@ body {
     font-weight: 500;
 }
 
-.botonInicioUno {
+.botonInicioUno{
     background-color: rgba(109, 117, 108, 0.432);
     margin-right: 70px;
+    transition: 1s;
+}
+
+.botonInicioUno:hover{
+    transform: scale(1.2);
 }
 
 .botonInicioUno a {
     padding: 10px;
-}
+} 
 
-.botonInicioDos {
+.botonInicioDos{
     background-color: rgba(109, 117, 108, 0.432);
     margin-right: 70px;
+    transition: 1s;
 }
 
+.botonInicioDos:hover{
+    transform: scale(1.2);
+}
 .botonInicioDos a {
     padding: 10px;
 }
 
-.botonInicioTres {
+.botonInicioTres{
     background-color: rgba(109, 117, 108, 0.432);
     margin-right: 48px;
+    transition: 0.5s;
+}
+
+.botonInicioTres:hover{
+    transform: scale(1.2);
 }
 
 .botonInicioTres a {
@@ -476,11 +506,21 @@ footer img {
     color: rgb(17, 199, 160);
     font-size: 20px;
     font-weight: 100;
+    transition: 0.5s;
+}
+
+.tecladoCard a:hover{
+    transform: scale(1.2);
 }
 
 .todaLaInfo{
     display: flex;
     justify-content: center;
+    transition: 0.5s;
+}
+
+.todaLaInfo:hover{
+    transform: scale(1.1);
 }
 
 .todaLaInfo a{
