@@ -1072,7 +1072,7 @@ footer img {
     margin-bottom: 5px;
 }
 
-.botonCompraEjemplo1{
+.botonCompraEjemplo{
     margin: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -1081,7 +1081,7 @@ footer img {
     font-weight: 500;
 }
 
-.botonCompraEjemplo1 a{
+.botonCompraEjemplo a{
     background-color: rgba(109, 117, 108, 0.432);
     padding: 6px;
     padding-left: 15px;
@@ -1091,7 +1091,13 @@ footer img {
     color: rgb(17, 199, 160);
 }
 
+.botonCompraEjemplo{
+    transition: 1s;
+}
 
+.botonCompraEjemplo:hover{
+    transform: scale(1.1);
+}
 
 #ejemplo2{
     display: flex;
@@ -1126,27 +1132,6 @@ footer img {
     margin-bottom: 5px;
 }
 
-.botonCompraEjemplo2{
-    margin: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: 500;
-}
-
-.botonCompraEjemplo2 a{
-    background-color: rgba(109, 117, 108, 0.432);
-    padding: 6px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-decoration: none;
-    font-family: 'Source Code Pro', monospace;
-    color: rgb(17, 199, 160);
-}
-
-
-
 #ejemplo3{
     display: flex;
     flex-direction: column;
@@ -1178,25 +1163,6 @@ footer img {
 .compraEjemplo3 h3{
     font-size: 35px;
     margin-bottom: 5px;
-}
-
-.botonCompraEjemplo3{
-    margin: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: 500;
-}
-
-.botonCompraEjemplo3 a{
-    background-color: rgba(109, 117, 108, 0.432);
-    padding: 6px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-decoration: none;
-    font-family: 'Source Code Pro', monospace;
-    color: rgb(17, 199, 160);
 }
 
 /*---MEDIA QUERIES INFO---*/
