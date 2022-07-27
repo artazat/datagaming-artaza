@@ -328,9 +328,6 @@ footer img {
     }
 } 
 
-
-
-
 @media screen and (max-width:386px) {
     .gridContainer{
         height: auto;
@@ -342,7 +339,7 @@ footer img {
         margin-bottom: 10px;
     }
     .gridContainer{
-        height: 100vh;
+        height: 120vh;
     }
 }
 
