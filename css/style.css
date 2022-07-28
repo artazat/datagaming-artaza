@@ -226,32 +226,16 @@ footer img {
 
 /* ---MEDIA QUERIES INICIO--- */
 
-@media screen and (max-width:1165px) {
+@media screen and (max-width:1165px){
     .encabezado {
         flex-direction: column;
-    }
-
-    .gridContainer {
-        height: auto;
-    }
-}
-
-@media screen and (max-width:1629px) {
-    .gridContainer {
-        height: 100vh;
     }
 }
 
 @media screen and (max-width:1154px){
     .gridContainer{
         grid-template-rows: auto auto auto;
-        height: 110vh;
-    }
-}
-
-@media screen and (max-width:1044px) {
-    .gridContainer {
-        height: auto;
+        /* height: 110vh; */
     }
 }
 
@@ -259,7 +243,6 @@ footer img {
     .parrafoDosInicio {
         margin-bottom: 55px;
     }
-
     .botonesInicio {
         flex-direction: column;
     }
@@ -284,16 +267,10 @@ footer img {
     }
 }
 
-@media screen and (max-width:953px) {
-    .gridContainer{
-        height: auto;
-    }
-}
 
 @media screen and (max-width:929px) {
     .gridContainer {
         grid-template-rows: auto auto auto;
-        height: auto;
     }
     .main{
         margin-top: 30px;
@@ -317,17 +294,6 @@ footer img {
     }
 }
 
-@media screen and (max-width:804px) {
-    .gridContainer {
-        height: auto;
-    }
-}
-
-@media screen and (max-width:720px) {
-    .gridContainer {
-        height: auto;
-    }
-}
 
 @media screen and (max-width:609px) {
     .pie h2 {
@@ -336,9 +302,6 @@ footer img {
 }
 
 @media screen and (max-width:414px) {
-    .gridContainer{
-        height: 110vh;
-    }
     .main h1{
         font-size: 20px;
     }
@@ -359,18 +322,10 @@ footer img {
     }
 } 
 
-@media screen and (max-width:386px) {
-    .gridContainer{
-        height: auto;
-    }
-}
 
 @media screen and (max-width:380px){
     .parrafoDosInicio{
         margin-bottom: 10px;
-    }
-    .gridContainer{
-        height: 120vh;
     }
 }
 
@@ -395,12 +350,6 @@ footer img {
     }
 } 
 
-@media screen and (max-width:290px) {
-    .gridContainer {
-        height: 100vh;
-    }
-}
-
 
 
 
@@ -423,7 +372,8 @@ footer img {
 
 .gridContainer2 {
     width: 100%;
-    height: 195vh;
+    min-height: 100vh;
+    max-height: 10000vh;
     background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.116)), url(../img/fondo5.jpg);
     background-position: center;
     background-size: cover;
@@ -542,9 +492,6 @@ footer img {
 /*---MEDIA QUERIES PERIFERICOS---*/
 
 @media screen and (max-width:1629px){
-    .gridContainer2{
-        height: auto;
-}
 .todaLaInfo{
     margin-bottom: 30px;
 }
@@ -552,7 +499,6 @@ footer img {
 
 @media screen and (max-width:830px){
     .gridContainer2{
-        height: auto;
         grid-template-rows: auto auto auto;
 }
 }
@@ -577,16 +523,8 @@ footer img {
     }
 }
 
-@media screen and (max-width:232px){
-    .gridContainer2{
-        height: auto;
-    }
-}
 
 @media screen and (max-width:228px){
-    .gridContainer2{
-        height: auto;
-    }
     .main2 img{
         width: 0;
         height: 0;
@@ -615,7 +553,8 @@ footer img {
 
 .gridContainer3 {
     width: 100%;
-    height: 256vh;
+    min-height: 100vh;
+    max-height: 10000vh;
     background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.116)), url(../img/fondo5.jpg);
     background-position: center;
     background-size: cover;
@@ -660,29 +599,15 @@ footer img {
 
 /*---MEDIA QUERIES PC---*/
 
-@media screen and (max-width:1629px){
-    .gridContainer3{
-        height: auto;
-}
-}
-
 @media screen and (max-width:830px){
     .gridContainer3{
-        height: auto;
+        /* height: auto; */
         grid-template-rows: auto auto auto;
 }
 }
 
-@media screen and (max-width:232px){
-    .gridContainer3{
-        height: auto;
-    }
-}
 
 @media screen and (max-width:228px){
-    .gridContainer3{
-        height: auto;
-    }
     .main3 img{
         width: 0;
         height: 0;
@@ -708,7 +633,8 @@ footer img {
 
 .gridContainer4 {
     width: 100%;
-    height: 195vh;
+    min-height: 100vh;
+    max-height: 10000vh;
     background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.116)), url(../img/fondo5.jpg);
     background-position: center;
     background-size: cover;
@@ -780,22 +706,20 @@ footer img {
 
 /*---MEDIA QUERIES NOTICIAS---*/
 
-@media screen and (max-width:1629px){
-    .gridContainer4{
-        height: auto;
-}
+@media screen and (max-width:880px){
+    .main4{
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width:867px){
     .gridContainer4{
-        height: 230vh;
         grid-template-rows: auto auto auto;
 }
 }
 
 @media screen and (max-width:830px){
     .gridContainer4{
-        height: 230vh;
         grid-template-rows: auto auto auto;
 }
 }
@@ -803,12 +727,6 @@ footer img {
 @media screen and (max-width:766px){
     .gridNoticias{
         margin-bottom: 30px;
-    }
-}
-
-@media screen and (max-width:723px){
-    .gridContainer4{
-        height: 250vh;
     }
 }
 
@@ -823,11 +741,19 @@ footer img {
         row-gap: 200px;
     }
     .gridContainer4{
-        height: 300vh;
         grid-template-rows: auto auto auto;
+    }
+    .main4{
+        margin-bottom: 60px;
     }
     .main4 hr{
         margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:554px){
+    .main4{
+        margin-bottom: 90px;
     }
 }
 
@@ -838,9 +764,6 @@ footer img {
 }
 
 @media screen and (max-width:400px){
-    .gridContainer4{
-        height: 230vh;
-    }
     .gridNoticias{
         row-gap: 100px;
     }
@@ -869,15 +792,9 @@ footer img {
     .main4 hr{
         margin-bottom: 100px;
     }
-    .gridContainer4{
-        height: 270vh;
-    }
 }
 
 @media screen and (max-width:285px){
-    .gridContainer4{
-        height: 280vh;
-    }
     .gridNoticias{
         row-gap: 200px;
     }
@@ -885,7 +802,6 @@ footer img {
 
 @media screen and (max-width:280px){
     .gridContainer4{
-        height: 300vh;
         grid-template-rows: auto auto auto;
     }
 }
@@ -894,9 +810,6 @@ footer img {
     .gridNoticias{
         row-gap: 240px;
     }
-    .gridContainer4{
-        height: 310vh;
-    }
     .main4 hr{
         margin-bottom: 120px;
     }
@@ -904,7 +817,6 @@ footer img {
 
 @media screen and (max-width:240px){
     .gridContainer4{
-        height: 310vh;
         grid-template-rows: 100px auto 100px;
     }
     .main4 hr{
@@ -916,9 +828,6 @@ footer img {
 }
 
 @media screen and (max-width:232px){
-    .gridContainer4{
-        height: 330vh;
-    }
     .gridNoticias{
         row-gap: 300px;
     }
@@ -936,7 +845,8 @@ footer img {
 
 .gridContainer5 {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 10000vh;
     background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.116)), url(../img/fondo5.jpg);
     background-position: center;
     background-size: cover;
@@ -974,7 +884,6 @@ footer img {
         flex-wrap: wrap;
     }
     .gridContainer5{
-        height: 100vh;
         grid-template-rows: 150px auto 100px;
     }
 }
@@ -990,9 +899,6 @@ footer img {
         display: flex;
         flex-wrap: wrap;
     }
-    .gridContainer5{
-        height: 110vh;
-    }
 }
 
 
@@ -1007,33 +913,13 @@ footer img {
 
 
 
-/*---GRID INFO---*/
 
-.gridContainer6 {
-    width: 100%;
-    height: 350vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.116)), url(../img/fondo5.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Source Code Pro', monospace;
-    font-family: 'Trispace', sans-serif;
-    color: rgb(105, 190, 19);
-}
 
-.gridContainer6 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: auto 1605px auto; */
-    grid-template-rows: 100px auto 85px;
-    grid-template-areas:
-        "header header header"
-        "main6 main6 main6"
-        "footer footer footer"
-    ;
-}
 
-/* ---MAIN INFO--- */
+
+
+
+/* ---INFO--- */
 
 .main6 {
     grid-area: main6;
@@ -1168,28 +1054,10 @@ footer img {
 
 /*---MEDIA QUERIES INFO---*/
 
-@media screen and (max-width:1629px){
-    .gridContainer6{
-        height: auto;
-    }
-}
-
-@media screen and (max-width:1165px){
-    .gridContainer6{
-        grid-template-rows: 150px auto 100px;
-    }
-}
-
-@media screen and (max-width:830px){
-    .gridContainer6{
-        grid-template-rows: 200px auto 100px;
-    }
-}
-
-@media screen and (max-width:708px){
+@media screen and (max-width:713px){
     .main6 img{
-        width: 500px;
-        height: 300px;
+        width: 450px;
+        height: 250px;
     }
 }
 
@@ -1245,9 +1113,6 @@ footer img {
     }
     .encabezado nav ul li a{
         font-size: 25px;
-    }
-    .gridContainer6{
-        grid-template-rows: 120px auto 100px;
     }
 }
 
