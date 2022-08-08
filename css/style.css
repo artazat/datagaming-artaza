@@ -16,6 +16,10 @@ body {
     flex-wrap: wrap;
 }
 
+body p{
+    color: rgb(78, 139, 112);
+}
+
 /* ---GRID--- */
 
 .gridContainer {
@@ -573,11 +577,38 @@ footer {
     justify-content: space-around;
 }
 
+.teclados img {
+    max-width: 100%; 
+    padding-left: 15px;
+    padding-right: 15px;
+    object-fit: cover;
+}
+
+#tecladoL a{
+    margin-top: 18px;
+    margin-bottom: 23px;
+}
+
+#tecladoL img{
+    width: 414px;
+    height: 245px;
+}
+
+#tecladoC a{
+    margin-top: 18px;
+    margin-bottom: 23px;
+}
+
+#tecladoC img{
+    width: 414px;
+    height: 270px;
+}
+
 .tecladoCard {
     background-color: rgba(29, 126, 139, 0.123);
     border: 1px solid rgb(41, 41, 41);
     margin: 8px;
-    max-width: 400px;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -587,18 +618,14 @@ footer {
     border-color: rgba(173, 167, 167, 0.755);
 }
 
-.teclados img {
-    max-width: 105%;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    object-fit: cover;
+.tecladoCard h3{
+    text-align: center;
 }
 
 .tecladoCard a {
     margin-top: 30px;
     margin-bottom: 25px;
-    background-color: rgba(109, 117, 108, 0.432);
+    background-color: rgba(109, 117, 108, 0.431);
     padding: 6px;
     padding-left: 15px;
     padding-right: 15px;
@@ -613,7 +640,6 @@ footer {
 .tecladoCard a:hover{
     transform: scale(1.2);
 }
-
 
 /*---MEDIA QUERIES PERIFERICOS---*/
 
@@ -632,6 +658,20 @@ footer {
     }
 }
 
+@media screen and (max-width:999px){
+    .imgEjemplo iframe{
+        width: 100vh;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:849px){
+    .imgEjemplo iframe{
+        width: 70vh;
+        height: 50vh;
+    }
+}
+
 @media screen and (max-width:773px) {
     .todaLaInfo a{
         font-size: 18px;
@@ -644,6 +684,13 @@ footer {
     }
 }
 
+@media screen and (max-width:594px){
+    .imgEjemplo iframe{
+        width: 50vh;
+        height: 30vh;
+    }
+}
+
 @media screen and (max-width:587px) {
     .todaLaInfo a{
         font-size: 10px;
@@ -652,6 +699,19 @@ footer {
     }
 }
 
+@media screen and (max-width:424px){
+    .imgEjemplo iframe{
+        width: 40vh;
+        height: 25vh;
+    }
+}
+
+@media screen and (max-width:339px){
+    .imgEjemplo iframe{
+        width: auto;
+        height: auto;
+    }
+}
 
 @media screen and (max-width:228px){
     .main2 img{
@@ -1001,26 +1061,41 @@ footer {
 
 #ejemplo1 h2{
     font-size: 40px;
-    color: rgba(84, 195, 217, 0.847);
+    /* color: rgba(84, 195, 217, 0.847); */
 }
 
 #ejemplo1 p{
     font-size: 25px;
 }
 
-.imgEjemplo1{
+.imgEjemplo{
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
 
+.imgEjemplo iframe{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .parrafoEjemplo1 p{
-    margin-top: 15px;
-    margin-bottom: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.parrafoEjemplo1 h3{
+    margin-top: 50px;
+}
+
+.linkParrafo a{
+    text-decoration: none;
+    color: rgba(84, 195, 217, 0.847); 
 }
 
 .compraEjemplo1 h3{
     font-size: 35px;
+    margin-top: 50px;
     margin-bottom: 5px;
 }
 
@@ -1065,26 +1140,29 @@ footer {
 
 #ejemplo2 h2{
     font-size: 40px;
-    color: rgba(84, 195, 217, 0.847);
 }
 
 #ejemplo2 p{
     font-size: 25px;
 }
 
-.imgEjemplo2{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+.parrafoEjemplo2 p{
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-.parrafoEjemplo2 p{
-    margin-top: 15px;
-    margin-bottom: 100px;
+.parrafoEjemplo2 h3{
+    margin-top: 50px;
+}
+
+.parrafoEjemplo2 p i{
+    font-size: 12px;
+    text-align: center;
 }
 
 .compraEjemplo2 h3{
     font-size: 35px;
+    margin-top: 50px;
     margin-bottom: 5px;
 }
 
@@ -1098,26 +1176,24 @@ footer {
 
 #ejemplo3 h2{
     font-size: 40px;
-    color: rgba(84, 195, 217, 0.847);
 }
 
 #ejemplo3 p{
     font-size: 25px;
 }
 
-.imgEjemplo3{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+.parrafoEjemplo3 p{
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-.parrafoEjemplo3 p{
-    margin-top: 15px;
-    margin-bottom: 100px;
+.parrafoEjemplo3 h3{
+    margin-top: 50px;
 }
 
 .compraEjemplo3 h3{
     font-size: 35px;
+    margin-top: 50px;
     margin-bottom: 5px;
 }
 
