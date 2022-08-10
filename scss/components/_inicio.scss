@@ -1,0 +1,104 @@
+.main{
+    grid-area: main;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#flechaAbajo{
+    margin-top: 8px;
+    margin-bottom: 30px;
+    color: rgb(149, 149, 149);
+}
+
+#flechaArriba{
+    margin-top: 35px;
+    margin-bottom: 8px;
+    color: rgb(149, 149, 149);
+}
+
+.apartadoPrincipal{
+    h1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 35px;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 45px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 23px;
+    }
+}
+
+.parteUnoParrafoDos {
+    margin-bottom: 8px;
+}
+
+.parrafoDosInicio {
+    margin-bottom: 35px;
+}
+
+.botonesInicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    a{
+        display: flex;
+        flex-wrap: wrap;
+        text-decoration: none;
+        color: rgba(84, 195, 217, 0.847);
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+.botonInicioUno{
+    background-color: rgba(109, 117, 108, 0.432);
+    margin-right: 70px;
+    transition: 1s;
+    &:hover{
+        transform: scale(1.1);
+    }
+    a{
+        padding: 10px;
+    }
+}
+
+.botonInicioDos{
+    background-color: rgba(109, 117, 108, 0.432);
+    margin-right: 70px;
+    transition: 1s;
+    &:hover{
+        transform: scale(1.1);
+    }
+    a{
+        padding: 10px;
+    }
+}
+
+.botonInicioTres{
+    background-color: rgba(109, 117, 108, 0.432);
+    margin-right: 48px;
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.1);
+    }
+    a{
+        padding: 10px;
+    }
+}

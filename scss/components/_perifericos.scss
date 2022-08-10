@@ -1,0 +1,87 @@
+.main2{
+    grid-area: main2;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    h2{
+        margin-top: 50px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.teclados {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    justify-content: space-around;
+    img{
+        max-width: 100%; 
+        padding-left: 15px;
+        padding-right: 15px;
+        object-fit: cover;
+    }
+}
+
+#tecladoL{
+    a{
+        margin-top: 18px;
+        margin-bottom: 23px;
+    }
+    img{
+        width: 414px;
+        height: 245px;
+    }
+}
+
+#tecladoC{
+    a{
+        margin-top: 18px;
+        margin-bottom: 23px;
+    }
+    img{
+        width: 414px;
+        height: 260px;
+    }
+}
+
+.tecladoCard {
+    background-color: rgba(29, 126, 139, 0.123);
+    border: 1px solid rgb(41, 41, 41);
+    margin: 8px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: ridge;
+    border-color: rgba(173, 167, 167, 0.755);
+    h3{
+        text-align: center;
+    }
+    a{
+        margin-top: 30px;
+        margin-bottom: 25px;
+        background-color: rgba(109, 117, 108, 0.431);
+        padding: 6px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-decoration: none;
+        font-family: 'Source Code Pro', monospace;
+        color: rgba(84, 195, 217, 0.847);
+        font-size: 20px;
+        font-weight: 100;
+        transition: 0.5s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+
+

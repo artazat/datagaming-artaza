@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Trispace:wght@600&display=swap');
+/* font-family: 'Source Code Pro', monospace;
+font-family: 'Trispace', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+/* font-family: 'Source Code Pro', monospace; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    p{
+        color: rgb(78, 139, 112);
+    }
+}
