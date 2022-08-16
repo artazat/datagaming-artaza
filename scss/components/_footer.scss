@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 .pie{
     grid-area: footer;
     background-color: rgba(0, 0, 0, 0.535);
@@ -5,7 +7,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center; 
-    color: rgba(84, 195, 217, 0.847);
+    color: $color-links;
 }
 
 .pieDePagina{
@@ -26,7 +28,7 @@
     a{
         i{
             text-decoration: none;
-            color: rgba(84, 195, 217, 0.847);
+            color: $color-links;
             font-size: 35px;
             padding-bottom: 10px;
         }

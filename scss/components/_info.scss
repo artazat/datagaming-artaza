@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 // INFO 1
 #ejemplo1 {
     display: flex;
@@ -37,7 +39,7 @@
 .linkParrafo {
     a {
         text-decoration: none;
-        color: rgba(84, 195, 217, 0.847);
+        color: $color-links;
     }
 }
 
@@ -140,7 +142,7 @@
         padding-top: 8px;
         text-decoration: none;
         font-family: 'Source Code Pro', monospace;
-        color: rgba(84, 195, 217, 0.847);
+        color: $color-links;
         i {
             font-size: 50px;
         }

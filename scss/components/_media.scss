@@ -405,3 +405,81 @@
         }
     }
 }
+
+
+
+// PC
+@media screen and (max-width:1154px){
+    .gridContainer3{
+        grid-template-rows: auto auto auto;
+    }
+    .main3{
+        h2{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+}
+
+@media screen and (max-width:228px){
+    .main3{
+        img{
+            width: 0;
+            height: 0;
+        }
+    }
+}
+
+
+
+// NOTICIAS
+@media screen and (max-width:1154px){
+    .gridContainer4{
+        grid-template-rows: auto auto auto;
+    }
+    .main4{
+        h2{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+}
+
+@media screen and (max-width:991px){
+    .row{
+        h3{
+            margin-top: 20px;
+        }
+    }
+}
+
+@media screen and (max-width:767px){
+    .main4{
+        h2{
+            font-size: 30px;
+            text-align: center;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+}
+
+
+
+// CONTACTO
+@media screen and (max-width:1154px){
+    .gridContainer5{
+        grid-template-rows: auto auto auto;
+    }
+}

@@ -1,18 +1,19 @@
+@import "../base/variables";
+@import "../base/extend";
+
 //INICIO
 .gridContainer{
-    width: 100%;
-    min-height: 100vh;
-    max-height: 10000vh;
+    @extend %layout;
     background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.116)), url(../img/fondo5.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Source Code Pro', monospace;
     font-family: 'Trispace', sans-serif;
-    color: rgb(98, 160, 35);
+    color: $color-principal;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 120px auto 100px;
     grid-template-areas:
         "header header header"
         "main main main"
@@ -24,19 +25,17 @@
 
 // PERIFERICOS
 .gridContainer2 {
-    width: 100%;
-    min-height: 100vh;
-    max-height: 10000vh;
+    @extend %layout;
     background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.116)), url(../img/fondo5.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Source Code Pro', monospace;
     font-family: 'Trispace', sans-serif;
-    color: rgb(98, 160, 35);
+    color: $color-principal;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 120px auto 100px;
     grid-template-areas:
         "header header header"
         "main2 main2 main2"
@@ -48,19 +47,17 @@
 
 // PC
 .gridContainer3 {
-    width: 100%;
-    min-height: 100vh;
-    max-height: 10000vh;
+    @extend %layout;
     background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.116)), url(../img/fondo5.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Source Code Pro', monospace;
     font-family: 'Trispace', sans-serif;
-    color: rgb(98, 160, 35);
+    color: $color-principal;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 120px auto 100px;
     grid-template-areas:
         "header header header"
         "main3 main3 main3"
@@ -72,19 +69,17 @@
 
 // NOTICIAS
 .gridContainer4 {
-    width: 100%;
-    min-height: 100vh;
-    max-height: 10000vh;
+    @extend %layout;
     background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.116)), url(../img/fondo5.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Source Code Pro', monospace;
     font-family: 'Trispace', sans-serif;
-    color: rgb(98, 160, 35);
+    color: $color-principal;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 120px auto 100px;
     grid-template-areas:
         "header header header"
         "main4 main4 main4"
@@ -96,19 +91,17 @@
 
 // CONTACTO
 .gridContainer5 {
-    width: 100%;
-    min-height: 100vh;
-    max-height: 10000vh;
+    @extend %layout;
     background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.116)), url(../img/fondo5.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Source Code Pro', monospace;
     font-family: 'Trispace', sans-serif;
-    color: rgb(98, 160, 35);
+    color: $color-principal;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 120px auto 100px;
     grid-template-areas:
         "header header header"
         "main5 main5 main5"

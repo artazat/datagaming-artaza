@@ -1,13 +1,15 @@
+@import "../base/variables";
+
 .main4{
     grid-area: main4;
     background-color: rgba(0, 0, 0, 0);
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 80px;
+    margin-bottom: 60px;
     h2{
         font-size: 35px;
     }
     h3{
-        color: rgb(98, 160, 35);
+        color: $color-principal;
         font-size: 30px;
     }
     p{
@@ -45,7 +47,7 @@
     padding-top: 2px;
     padding-bottom: 2px;
     background-color: rgba(109, 117, 108, 0.432);
-    color: rgba(84, 195, 217, 0.847);
+    color: $color-links;
     font-family: 'Source Code Pro', monospace;
     font-size: 25px;
 }
@@ -55,7 +57,7 @@
     flex-direction: column;
     text-align: center;
     h2{
-        color: rgb(98, 160, 35);
+        color: $color-principal;
         margin-top: 110px;
     }
     img{

@@ -1,0 +1,11 @@
+@mixin estilos ($flex, $start, $column, $center) {
+    display: $flex;
+    justify-content: $start;
+    flex-direction: $column;
+    align-content: $center;
+}
+
+@mixin margen ($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}

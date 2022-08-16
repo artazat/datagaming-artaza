@@ -1,44 +1,47 @@
+@import "../base/variables";
+@import "../base/maps";
+
 .main{
     grid-area: main;
     background-color: rgba(0, 0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    display: map-get($estilos,flexbox);
+    align-items: map-get($estilos,centro);
+    justify-content: map-get($estilos,centro);
+    text-align: map-get($estilos,centro);
 }
 
 #flechaAbajo{
-    margin-top: 8px;
+    margin-top: 35px;
     margin-bottom: 30px;
     color: rgb(149, 149, 149);
 }
 
 #flechaArriba{
     margin-top: 35px;
-    margin-bottom: 8px;
+    margin-bottom: 35px;
     color: rgb(149, 149, 149);
 }
 
 .apartadoPrincipal{
     h1{
-        display: flex;
-        justify-content: center;
-        text-align: center;
+        display: map-get($estilos,flexbox);
+        justify-content: map-get($estilos,centro);
+        text-align: map-get($estilos,centro);
         font-size: 50px;
-        margin-bottom: 35px;
+        margin-bottom: 30px;
     }
     h2{
-        display: flex;
-        justify-content: center;
-        text-align: center;
+        display: map-get($estilos,flexbox);
+        justify-content: map-get($estilos,centro);
+        text-align: map-get($estilos,centro);
         font-size: 45px;
-        margin-top: 70px;
+        margin-top: 110px;
         margin-bottom: 30px;
     }
     p{
-        display: flex;
-        justify-content: center;
-        text-align: center;
+        display: map-get($estilos,flexbox);
+        justify-content: map-get($estilos,centro);
+        text-align: map-get($estilos,centro);
         font-size: 23px;
     }
 }
@@ -52,16 +55,16 @@
 }
 
 .botonesInicio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    display: map-get($estilos,flexbox);
+    flex-wrap: map-get($estilos,responsivo);
+    justify-content: map-get($estilos,centro);
+    text-align: map-get($estilos,centro);
+    align-items: map-get($estilos,centro);
     a{
-        display: flex;
-        flex-wrap: wrap;
-        text-decoration: none;
-        color: rgba(84, 195, 217, 0.847);
+        display: map-get($estilos,flexbox);
+        flex-wrap: map-get($estilos,responsivo);
+        text-decoration: map-get($estilos,nada);
+        color: $color-links;
         font-size: 30px;
         font-weight: 500;
     }

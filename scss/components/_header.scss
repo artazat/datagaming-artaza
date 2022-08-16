@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 .navbar{
     grid-area: header;
     background-color: rgba(0, 0, 0, 0.535);
@@ -5,7 +7,7 @@
 
 .nav-link{
     font-family: 'Source Code Pro', monospace;
-    color: rgba(84, 195, 217, 0.847);
+    color: $color-links;
     font-size: 28px;
     font-weight: bold;
     margin-right: 15px;
