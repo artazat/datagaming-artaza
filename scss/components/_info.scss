@@ -1,7 +1,7 @@
 @import "../base/variables";
 
 // INFO 1
-#ejemplo1 {
+#periferico1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +26,7 @@
     }
 }
 
-.parrafoEjemplo1 {
+.parrafoP1 {
     h3 {
         margin-top: 50px;
     }
@@ -43,7 +43,7 @@
     }
 }
 
-.compraEjemplo1 {
+.compra1 {
     h3 {
         font-size: 35px;
         margin-top: 50px;
@@ -53,7 +53,7 @@
 
 
 //INFO 2
-#ejemplo2 {
+#periferico2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,7 +67,7 @@
     }
 }
 
-.parrafoEjemplo2{
+.parrafoP2{
     h3{
         margin-top: 50px;
     }
@@ -81,7 +81,7 @@
     }
 }
 
-.compraEjemplo2{
+.compra2{
     h3{
     font-size: 35px;
     margin-top: 50px;
@@ -90,7 +90,7 @@
 }
 
 // INFO 3
-#ejemplo3{
+#periferico3{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,7 +104,7 @@
     }
 }
 
-.parrafoEjemplo3 {
+.parrafoP3 {
     h3 {
         margin-top: 50px;
     }
@@ -114,7 +114,7 @@
     }
 }
 
-.compraEjemplo3{
+.compra3{
     h3{
     font-size: 35px;
     margin-top: 50px;
@@ -122,9 +122,115 @@
     }
 }
 
+// INFO 4
+#periferico4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+
+.parrafoP4 {
+    h3 {
+        margin-top: 50px;
+    }
+    p {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        i{
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+.compra4{
+    h3{
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    }
+}
+
+// INFO 5
+#periferico5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+
+.parrafoP5 {
+    h3 {
+        margin-top: 50px;
+    }
+    p {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        i{
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+.compra5{
+    h3{
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    }
+}
+
+// INFO 6
+#periferico6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+
+.parrafoP6 {
+    h3 {
+        margin-top: 50px;
+    }
+    p {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+.compra6{
+    h3{
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    }
+}
 
 // BOTON COMPRA
-.botonCompraEjemplo {
+.botonCompra{
     margin: 50px;
     display: flex;
     flex-wrap: wrap;

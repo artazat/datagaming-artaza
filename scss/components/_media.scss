@@ -300,7 +300,7 @@
 }
 
 @media screen and (max-width:999px){
-    .imgEjemplo{
+    .iframeP{
         iframe{
             width: 100vh;
             height: 50vh;
@@ -309,7 +309,7 @@
 }
 
 @media screen and (max-width:849px){
-    .imgEjemplo{
+    .iframeP{
         iframe{
             width: 70vh;
             height: 50vh;
@@ -329,7 +329,7 @@
             font-size: 25px;
         }
     }
-    .imgEjemplo{
+    .iframeP{
         iframe{
             width: 50vh;
             height: 30vh;
@@ -365,8 +365,17 @@
     }
 }
 
+@media screen and (max-width:466px){
+    .iframeP{
+        iframe{
+            width: 45vh;
+            height: 30vh;
+        }
+    }
+}
+
 @media screen and (max-width:429px){
-    .imgEjemplo{
+    .iframeP{
         iframe{
             width: 40vh;
             height: 25vh;
@@ -395,13 +404,19 @@
             font-size: 15px;
         }
     }
+    .iframeP{
+        iframe{
+            width: 35vh;
+            height: 20vh;
+        }
+    }
 }
 
 @media screen and (max-width:350px){
-    .imgEjemplo{
+    .iframeP{
         iframe{
-            width: auto;
-            height: auto;
+            width: 30vh;
+            height: 20vh;
         }
     }
 }
