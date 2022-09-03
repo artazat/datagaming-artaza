@@ -1,29 +1,35 @@
 @import "../base/variables";
 @import "../base/mixin";
 
-.main2{
+.main2 {
     grid-area: main2;
     background-color: rgba(0, 0, 0, 0);
     @include estilos(flex, flex-start, column, center);
-    h2{
+
+    h2 {
         margin-top: 80px;
         margin-bottom: 5px;
         display: flex;
         justify-content: center;
         text-align: center;
     }
+
+    h3 {
+        padding-top: 25px;
+    }
 }
 
 
-.contenidoP{
+.contenidoP {
     display: flex;
     flex-wrap: wrap;
     margin-top: 3%;
     margin-bottom: 15%;
     justify-content: space-around;
-    div{
-        img{
-            max-width: 100%; 
+
+    div {
+        img {
+            max-width: 100%;
             padding-left: 15px;
             padding-right: 15px;
             object-fit: cover;
@@ -31,7 +37,7 @@
     }
 }
 
-.perifericoCard{
+.perifericoCard {
     background-color: rgba(29, 126, 139, 0.123);
     border: 1px solid rgb(41, 41, 41);
     margin: 8px;
@@ -43,13 +49,15 @@
     align-items: center;
     border: ridge;
     border-color: rgba(173, 167, 167, 0.755);
-    h3{
+
+    h3 {
         text-align: center;
     }
-    a{
+
+    a {
         margin-top: 30px;
         margin-bottom: 25px;
-        background-color: rgba(109, 117, 108, 0.431);
+        background-color: rgba(109, 117, 108, 0.644);
         padding: 6px;
         padding-left: 15px;
         padding-right: 15px;
@@ -59,67 +67,86 @@
         font-size: 20px;
         font-weight: 100;
         transition: 0.5s;
-        &:hover{
+
+        &:hover {
             transform: scale(1.2);
         }
     }
 }
 
-#tecladoL{
-    a{
+#tecladoL {
+    a {
         @include margen (18px, 23px);
     }
-    img{
+
+    img {
         width: 414px;
         height: 245px;
     }
 }
 
-#tecladoC{
-    a{
+#tecladoC {
+    a {
         margin-top: 18px;
         margin-bottom: 23px;
     }
-    img{
+
+    img {
         width: 444px;
         height: 260px;
     }
 }
 
-#mouseR{
-    img{
+#mouseR {
+    max-width: 405px;
+
+    img {
         width: 400px;
         height: 400px;
     }
-    h3{
+
+    h3 {
         margin-top: 20px;
     }
-    a{
+
+    a {
         margin-top: 12px;
     }
 }
 
-#mouseRz{
-    img{
+#mouseRz {
+    min-width: 405px;
+    max-width: 405px;
+
+    img {
         margin-top: 5px;
         width: 370px;
         height: 370px;
     }
-    h3{
+
+    h3 {
         margin-top: 15px;
     }
 }
 
-#mouseL{
-    img{
+#mouseL {
+    max-width: 405px;
+
+    img {
         margin-top: 5px;
-        width: 360px;
-        height: 360px;
+        width: 300px;
+        height: 350px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
-    h3{
+
+    h3 {
         margin-top: 10px;
+        padding-left: 80px;
+        padding-right: 80px;
     }
-    a{
+
+    a {
         margin-top: 20px;
     }
 }

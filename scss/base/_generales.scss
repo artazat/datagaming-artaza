@@ -5,6 +5,8 @@ font-family: 'Trispace', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 /* font-family: 'Source Code Pro', monospace; */
 
+@import "./variables";
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +16,47 @@ font-family: 'Trispace', sans-serif; */
 body{
     display: flex;
     flex-wrap: wrap;
+    h1{
+        &::selection{
+            background-color: $color-principal;
+            color: black;
+        }
+    }
+    h2{
+        &::selection{
+            background-color: $color-principal;
+            color: black;
+        }
+    }
+    h3{
+        &::selection{
+            background-color: $color-principal;
+            color: black;
+        }
+    }
     p{
-        color: rgb(78, 139, 112);
+        color: $color-secundario;
+        padding-left: 25%;
+        padding-right: 25%;
+        &::selection {
+            background-color: $color-secundario;
+            color: black;
+        }
+    }
+    a{
+        &::selection{
+            background-color: $color-links;
+            color: whitesmoke;
+        }
+    }
+    img{
+        &::selection{
+            background-color: rgba(245, 245, 220, 0.247);
+        }
+    }
+    iframe{
+        &::selection{
+            background-color: rgba(245, 245, 220, 0.247);
+        }
     }
 }

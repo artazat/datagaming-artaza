@@ -1,28 +1,30 @@
 @import "../base/variables";
 
-.navbar{
+.navbar {
     grid-area: header;
     background-color: rgba(0, 0, 0, 0.535);
 }
 
-.nav-link{
+.nav-link {
     font-family: 'Source Code Pro', monospace;
     color: $color-links;
     font-size: 28px;
     font-weight: bold;
     margin-right: 15px;
     transition: 1s;
-    &:hover{
+
+    &:hover {
         transform: scale(0.8);
     }
-    i{
+
+    i {
         font-size: 0;
     }
 }
 
-.navbar-toggler{
-    span{
-        i{
+.navbar-toggler {
+    span {
+        i {
             color: rgb(17, 199, 160);
             background-color: rgba(109, 117, 108, 0.432);
             font-size: 40px;

@@ -1,47 +1,54 @@
 @import "../base/variables";
 @import "../base/maps";
 
-.main{
+.main {
     grid-area: main;
     background-color: rgba(0, 0, 0, 0);
-    display: map-get($estilos,flexbox);
-    align-items: map-get($estilos,centro);
-    justify-content: map-get($estilos,centro);
-    text-align: map-get($estilos,centro);
+    display: map-get($estilos, flexbox);
+    align-items: map-get($estilos, centro);
+    justify-content: map-get($estilos, centro);
+    text-align: map-get($estilos, centro);
+
+    p {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
 }
 
-#flechaAbajo{
+#flechaAbajo {
     margin-top: 35px;
     margin-bottom: 30px;
     color: rgb(149, 149, 149);
 }
 
-#flechaArriba{
+#flechaArriba {
     margin-top: 35px;
     margin-bottom: 35px;
     color: rgb(149, 149, 149);
 }
 
-.apartadoPrincipal{
-    h1{
-        display: map-get($estilos,flexbox);
-        justify-content: map-get($estilos,centro);
-        text-align: map-get($estilos,centro);
+.apartadoPrincipal {
+    h1 {
+        display: map-get($estilos, flexbox);
+        justify-content: map-get($estilos, centro);
+        text-align: map-get($estilos, centro);
         font-size: 50px;
         margin-bottom: 30px;
     }
-    h2{
-        display: map-get($estilos,flexbox);
-        justify-content: map-get($estilos,centro);
-        text-align: map-get($estilos,centro);
+
+    h2 {
+        display: map-get($estilos, flexbox);
+        justify-content: map-get($estilos, centro);
+        text-align: map-get($estilos, centro);
         font-size: 45px;
         margin-top: 110px;
         margin-bottom: 30px;
     }
-    p{
-        display: map-get($estilos,flexbox);
-        justify-content: map-get($estilos,centro);
-        text-align: map-get($estilos,centro);
+
+    p {
+        display: map-get($estilos, flexbox);
+        justify-content: map-get($estilos, centro);
+        text-align: map-get($estilos, centro);
         font-size: 23px;
     }
 }
@@ -55,53 +62,60 @@
 }
 
 .botonesInicio {
-    display: map-get($estilos,flexbox);
-    flex-wrap: map-get($estilos,responsivo);
-    justify-content: map-get($estilos,centro);
-    text-align: map-get($estilos,centro);
-    align-items: map-get($estilos,centro);
-    a{
-        display: map-get($estilos,flexbox);
-        flex-wrap: map-get($estilos,responsivo);
-        text-decoration: map-get($estilos,nada);
+    display: map-get($estilos, flexbox);
+    flex-wrap: map-get($estilos, responsivo);
+    justify-content: map-get($estilos, centro);
+    text-align: map-get($estilos, centro);
+    align-items: map-get($estilos, centro);
+
+    a {
+        display: map-get($estilos, flexbox);
+        flex-wrap: map-get($estilos, responsivo);
+        text-decoration: map-get($estilos, nada);
         color: $color-links;
         font-size: 30px;
         font-weight: 500;
     }
 }
 
-.botonInicioUno{
+.botonInicioUno {
     background-color: rgba(109, 117, 108, 0.432);
     margin-right: 70px;
     transition: 1s;
-    &:hover{
+
+    &:hover {
         transform: scale(1.1);
     }
-    a{
+
+    a {
         padding: 10px;
     }
 }
 
-.botonInicioDos{
+.botonInicioDos {
     background-color: rgba(109, 117, 108, 0.432);
     margin-right: 70px;
     transition: 1s;
-    &:hover{
+
+    &:hover {
         transform: scale(1.1);
     }
-    a{
+
+    a {
         padding: 10px;
     }
 }
 
-.botonInicioTres{
+.botonInicioTres {
     background-color: rgba(109, 117, 108, 0.432);
     margin-right: 48px;
     transition: 0.5s;
-    &:hover{
+
+    &:hover {
         transform: scale(1.1);
     }
-    a{
+
+    a {
         padding: 10px;
     }
 }

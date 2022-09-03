@@ -1,43 +1,63 @@
 @import "../base/variables";
 
-.main5{
+.main5 {
     grid-area: main5;
     background-color: rgba(0, 0, 0, 0);
     display: flex;
-    flex-direction: column;
     justify-content: center;
+
+    h2 {
+        text-align: center;
+    }
 }
 
+form {
+    max-width: 820px;
+    margin: 100px auto;
+    margin-top: 115px;
 
-#resetear{
-    margin-top: 20px;
-    margin-bottom: 5px;
+    textarea {
+        height: 200px;
+        line-height: 150%;
+        resize: vertical;
+    }
 }
 
-#enviar{
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 5px;
+.feedback-input {
+    color: $color-principal;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid $color-secundario;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
 }
 
-.form{
-    border: 3px solid rgba(134, 133, 133, 0.993);
-    margin-top: 30px;
+.feedback-input:focus {
+    border: 2px solid $color-links;
 }
 
-.email{
-    background-color: rgba(46, 143, 86, 0.842);
+[type="submit"] {
+    width: 100%;
+    background: $color-links;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
     padding-bottom: 10px;
-}
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
 
-.nombre{
-    background-color: rgba(46, 143, 86, 0.842);
-    padding-bottom: 10px;
-}
-
-.textarea{
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: rgba(46, 143, 86, 0.842);
+    &:hover {
+        background: #8b8d8dc4;
+    }
 }

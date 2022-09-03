@@ -15,12 +15,14 @@
     <link rel="shortcut icon" href="../img/favicon1.ico" type="image/x-icon">
     <!-- TÍTULO, DESCRIPCIÓN, ETC -->
     <title>Data Gaming | ¡Contáctanos! Tu opinión nos importa</title>
-    <meta name="description" content="¿Hay algo que no te agradó, quieres darnos una recomendación o algún pedido? Dinos en que te podemos ayudar.">
+    <meta name="description"
+        content="¿Hay algo que no te agradó, quieres darnos una recomendación o algún pedido? Dinos en que te podemos ayudar.">
     <meta name="keywords" content="contacto, consejos, dudas, email, nombre, formulario, ayuda">
     <!-- PROTOCOLO OPEN GRAPH -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Data Gaming | ¡Contáctanos! Tu opinión nos importa">
-    <meta porperty="og:description" content="¿Hay algo que no te agradó, quieres darnos una recomendación o algún pedido? Dinos en que te podemos ayudar.">
+    <meta porperty="og:description"
+        content="¿Hay algo que no te agradó, quieres darnos una recomendación o algún pedido? Dinos en que te podemos ayudar.">
 </head>
 <body>
     <div class="gridContainer5">
@@ -59,36 +61,17 @@
         </header>
         <main class="main5 container-fluid">
             <section class="container">
-                <h2>¡Ayudanos a mejorar!</h2>
-                <form class="form row">
-                    <!-- g-3 -->
-                    <div class="email col-6">
-                        <label for="inputEmail4" class="form-label"></label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                    </div>
-                    <div class="nombre col-6">
-                        <label for="nameInput" class="form-label"></label>
-                        <input type="text" class="form-control" id="nameInput" placeholder="Nombre">
-                    </div>
-                    <div class="textarea col-12">
-                        <label for="exampleFormControlTextarea1" class="form-label"></label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="12"
-                            placeholder="¡Danos tu opinión o consejo!"></textarea>
-                            <div class="d-flex justify-content-end">
-                                <input type="reset" id="resetear">
-                                <input type="submit" id="enviar">
-                            </div>
-                    </div>
-                    <!-- <div class="col-12 d-flex justify-content-end bd-highlight mb-2">
-                        <input type="reset" id="resetear">
-                        <input type="submit" id="enviar">
-                    </div> -->
+                <form>
+                    <h2>¡Ayudanos a mejorar!</h2>
+                    <input name="name" type="text" class="feedback-input" placeholder="Nombre" />
+                    <input name="email" type="email" class="feedback-input" placeholder="Correo electronico" />
+                    <textarea name="text" class="feedback-input" placeholder="¡Comentanos que piensas!"></textarea>
+                    <input type="submit" value="ENVIAR" />
                 </form>
             </section>
         </main>
         <footer class="pie container-fluid">
             <div class="pieDePagina">
-                <!-- <h2>¡Encuéntrame en mis redes sociales!</h2> -->
                 <div class="logosInicio border-bottom border-success">
                     <a href="https://es-la.facebook.com/" target="_blank" class="face"><i
                             class='bx bxl-facebook-square'></i></a>

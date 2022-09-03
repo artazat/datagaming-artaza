@@ -1,28 +1,27 @@
 @import "../base/variables";
 
-// INFO 1
+// <PERIFERICOS>
+// PERIFERICO 1
 #periferico1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 80px;
-    h2 {
-        font-size: 40px;
-    }
+
     p {
-        font-size: 25px;
+        font-size: 23px;
     }
 }
 
-.imgEjemplo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    iframe {
-        margin-top: 30px;
-        margin-bottom: 30px;
+#encabezadosP {
+    text-decoration: none;
+    font-size: 40px;
+    color: $color-principal;
+    margin-bottom: 10px;
+
+    &:hover {
+        color: $color-links;
     }
 }
 
@@ -30,8 +29,9 @@
     h3 {
         margin-top: 50px;
     }
+
     p {
-        margin-top: 25px;
+        margin-top: 10px;
         margin-bottom: 25px;
     }
 }
@@ -40,67 +40,53 @@
     a {
         text-decoration: none;
         color: $color-links;
+        transition: 0.5s;
+
+        &:hover {
+            color: rgb(199, 239, 247);
+        }
     }
 }
 
-.compra1 {
-    h3 {
-        font-size: 35px;
-        margin-top: 50px;
-        margin-bottom: 5px;
-    }
-}
-
-
-//INFO 2
+//PERIFERICO 2
 #periferico2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 80px;
-    h2 {
-        font-size: 40px;
-    }
+
     p {
-        font-size: 25px;
+        font-size: 23px;
     }
 }
 
-.parrafoP2{
-    h3{
+.parrafoP2 {
+    h3 {
         margin-top: 50px;
     }
-    p{
-        margin-top: 25px;
+
+    p {
+        margin-top: 10px;
         margin-bottom: 25px;
-        i{
+
+        i {
             font-size: 12px;
             text-align: center;
         }
     }
 }
 
-.compra2{
-    h3{
-    font-size: 35px;
-    margin-top: 50px;
-    margin-bottom: 5px;
-    }
-}
-
-// INFO 3
-#periferico3{
+// PERIFERICO 3
+#periferico3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 80px;
-    h2{
-        font-size: 40px;
-    }
-    p{
-        font-size: 25px;
+
+    p {
+        font-size: 23px;
     }
 }
 
@@ -108,32 +94,23 @@
     h3 {
         margin-top: 50px;
     }
+
     p {
-        margin-top: 25px;
+        margin-top: 10px;
         margin-bottom: 25px;
     }
 }
 
-.compra3{
-    h3{
-    font-size: 35px;
-    margin-top: 50px;
-    margin-bottom: 5px;
-    }
-}
-
-// INFO 4
-#periferico4{
+// PERIFERICO 4
+#periferico4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 80px;
-    h2{
-        font-size: 40px;
-    }
-    p{
-        font-size: 25px;
+
+    p {
+        font-size: 23px;
     }
 }
 
@@ -141,35 +118,27 @@
     h3 {
         margin-top: 50px;
     }
+
     p {
-        margin-top: 25px;
+        margin-top: 10px;
         margin-bottom: 25px;
-        i{
+
+        i {
             font-size: 12px;
             text-align: center;
         }
     }
 }
 
-.compra4{
-    h3{
-    font-size: 35px;
-    margin-top: 50px;
-    margin-bottom: 5px;
-    }
-}
-
-// INFO 5
-#periferico5{
+// PERIFERICO 5
+#periferico5 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 80px;
-    h2{
-        font-size: 40px;
-    }
-    p{
+
+    p {
         font-size: 25px;
     }
 }
@@ -178,36 +147,28 @@
     h3 {
         margin-top: 50px;
     }
+
     p {
-        margin-top: 25px;
+        margin-top: 10px;
         margin-bottom: 25px;
-        i{
+
+        i {
             font-size: 12px;
             text-align: center;
         }
     }
 }
 
-.compra5{
-    h3{
-    font-size: 35px;
-    margin-top: 50px;
-    margin-bottom: 5px;
-    }
-}
-
-// INFO 6
-#periferico6{
+// PERIFERICO 6
+#periferico6 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 80px;
-    h2{
-        font-size: 40px;
-    }
-    p{
-        font-size: 25px;
+
+    p {
+        font-size: 23px;
     }
 }
 
@@ -215,32 +176,33 @@
     h3 {
         margin-top: 50px;
     }
-    p {
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-}
 
-.compra6{
-    h3{
-    font-size: 35px;
-    margin-top: 50px;
-    margin-bottom: 5px;
+    p {
+        margin-top: 10px;
+        margin-bottom: 25px;
+
+        i {
+            font-size: 12px;
+            text-align: center;
+        }
     }
 }
 
 // BOTON COMPRA
-.botonCompra{
-    margin: 50px;
+.botonCompra {
+    margin-top: 15px;
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     font-size: 30px;
     font-weight: 500;
     transition: 1s;
+
     &:hover {
         transform: scale(1.3);
     }
+
     a {
         background-color: rgba(109, 117, 108, 0.432);
         padding-left: 15px;
@@ -249,9 +211,418 @@
         text-decoration: none;
         font-family: 'Source Code Pro', monospace;
         color: $color-links;
+
         i {
             font-size: 50px;
         }
     }
 }
 
+.compra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h3 {
+        font-size: 35px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+
+    p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+// </PERIFERICOS>
+
+
+
+// <PC>
+// PC 1
+#pc1 {
+    margin-top: 80px;
+
+    p {
+        font-size: 23px;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.parrafoPC1 {
+    h3 {
+        margin-top: 50px;
+    }
+
+    p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+
+        i {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+.imgPC {
+    display: flex;
+    justify-content: center;
+}
+
+.tabla {
+    h3 {
+        text-align: start;
+        padding-left: 10px;
+        margin-bottom: 15px;
+        font-size: 28px;
+    }
+
+    p {
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+
+    table {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 30px;
+        border-bottom: 2px solid gray;
+    }
+}
+
+#table2 {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#table3 {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.izquierda {
+    text-align: start;
+    padding-left: 10px;
+}
+
+.derecha {
+    padding-left: 0px;
+    text-align: end;
+}
+
+.compra2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h3 {
+        font-size: 35px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+
+    p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    a {
+        padding-bottom: 10px;
+    }
+}
+
+// PC 2
+#pc2 {
+    margin-top: 80px;
+
+    p {
+        font-size: 23px;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.parrafoPC2 {
+    h3 {
+        margin-top: 50px;
+    }
+
+    p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+
+        i {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+// PC 3
+#pc3 {
+    margin-top: 80px;
+
+    p {
+        font-size: 23px;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.parrafoPC3 {
+    h3 {
+        margin-top: 50px;
+    }
+
+    p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+
+        i {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+.derecha2 {
+    padding-left: 200px;
+    text-align: end;
+}
+
+// PC 4
+#pc4 {
+    margin-top: 80px;
+
+    p {
+        font-size: 23px;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.parrafoPC4 {
+    h3 {
+        margin-top: 50px;
+    }
+
+    p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+
+        i {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+// PC 5
+#pc5 {
+    margin-top: 80px;
+
+    p {
+        font-size: 23px;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.parrafoPC5 {
+    h3 {
+        margin-top: 50px;
+    }
+
+    p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+
+        i {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+// PC 6
+#pc6 {
+    margin-top: 80px;
+
+    p {
+        font-size: 23px;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.parrafoPC6 {
+    h3 {
+        margin-top: 50px;
+    }
+
+    p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+
+        i {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+// PC 7
+#pc7 {
+    margin-top: 80px;
+
+    p {
+        font-size: 23px;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.parrafoPC7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+
+        i {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+#iframeArtic {
+    display: flex;
+    justify-content: center;
+}
+
+#iframeW80 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+// PC 8
+#pc8 {
+    margin-top: 80px;
+
+    p {
+        font-size: 23px;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.parrafoPC8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+
+        i {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+// PC 9
+#pc9 {
+    margin-top: 80px;
+
+    p {
+        font-size: 23px;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.parrafoPC9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+
+        i {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+// </PC>

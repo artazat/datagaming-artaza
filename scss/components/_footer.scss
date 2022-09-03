@@ -1,32 +1,39 @@
 @import "../base/variables";
 
-.pie{
+.pie {
     grid-area: footer;
     background-color: rgba(0, 0, 0, 0.535);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center; 
+    align-items: center;
     color: $color-links;
+
+    p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
-.pieDePagina{
+.pieDePagina {
     display: flex;
-    h2{
+
+    h2 {
         font-size: 25px;
     }
 }
 
-.pieParrafos{
+.pieParrafos {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
 }
 
-.logosInicio{
+.logosInicio {
     display: flex;
-    a{
-        i{
+
+    a {
+        i {
             text-decoration: none;
             color: $color-links;
             font-size: 35px;
@@ -35,33 +42,33 @@
     }
 }
 
-.ig{
+.ig {
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.face{
+.face {
     margin-left: 500px;
 }
 
-.tw{
+.tw {
     margin-right: 50px;
 }
 
-.git{
+.git {
     margin-right: 50px;
 }
 
-.steam{
+.steam {
     margin-right: 500px;
 }
 
-.copy{
-    i{
+.copy {
+    i {
         font-size: 15px;
     }
 }
 
-.parrafoPie{
+.parrafoPie {
     margin-top: 8px;
 }

@@ -2,7 +2,7 @@
 @import "../base/extend";
 
 //INICIO
-.gridContainer{
+.gridContainer {
     @extend %layout;
     background: linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.116)), url(../img/fondo5.jpg);
     background-position: center;

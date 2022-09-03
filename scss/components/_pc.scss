@@ -1,4 +1,4 @@
-.main3{
+.main3 {
     grid-area: main3;
     background-color: rgba(0, 0, 0, 0);
     display: flex;
@@ -6,11 +6,157 @@
     justify-content: flex-start;
     flex-direction: column;
     align-content: center;
-    h2{
+
+    h2 {
         margin-top: 50px;
         margin-bottom: 5px;
         display: flex;
         justify-content: center;
         text-align: center;
+    }
+
+    h3 {
+        padding-top: 25px;
+    }
+}
+
+.contenidoPC {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-bottom: 15%;
+    justify-content: space-around;
+
+    div {
+        img {
+            max-width: 100%;
+            width: 420px;
+            height: 420px;
+            padding-left: 15px;
+            padding-right: 15px;
+            object-fit: cover;
+        }
+    }
+}
+
+.pcCard {
+    background-color: rgba(29, 126, 139, 0.123);
+    border: 1px solid rgb(41, 41, 41);
+    margin: 8px;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: ridge;
+    border-color: rgba(173, 167, 167, 0.755);
+
+    h3 {
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+        color: rgb(118, 172, 147);
+    }
+
+    a {
+        margin-top: 30px;
+        margin-bottom: 25px;
+        background-color: rgba(109, 117, 108, 0.644);
+        padding: 6px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-decoration: none;
+        font-family: 'Source Code Pro', monospace;
+        color: $color-links;
+        font-size: 20px;
+        font-weight: 100;
+        transition: 0.5s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.contenidoPC2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-bottom: 15%;
+    justify-content: space-around;
+
+    div {
+        img {
+            max-width: 100%;
+            width: 450px;
+            height: 450px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}
+
+.pcCard2 {
+    background-color: rgba(29, 126, 139, 0.123);
+    border: 1px solid rgb(41, 41, 41);
+    margin: 8px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: ridge;
+    border-color: rgba(173, 167, 167, 0.755);
+
+    h3 {
+        text-align: center;
+    }
+
+    a {
+        margin-top: 30px;
+        margin-bottom: 25px;
+        background-color: rgba(109, 117, 108, 0.644);
+        padding: 6px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-decoration: none;
+        font-family: 'Source Code Pro', monospace;
+        color: $color-links;
+        font-size: 20px;
+        font-weight: 100;
+        transition: 0.5s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+#3090 {
+    img {
+        object-fit: cover;
+    }
+}
+
+#6950 {
+    img {
+        object-fit: cover;
+    }
+}
+
+#termica {
+    img {
+        object-fit: none;
+        padding-top: 8px;
+    }
+}
+
+#w80 {
+    img {
+        padding-top: 8px;
     }
 }
